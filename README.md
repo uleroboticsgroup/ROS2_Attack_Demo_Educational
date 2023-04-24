@@ -165,7 +165,7 @@ The script is modifying the package replacing the hexadecimal value of x coordin
 
 8. Next step consist in run the script and use teleop node to move the robot forward ("I" key), with nfqsed runing, the robot should moving backward when we press "I" key. With Wireshark we can monitor the traffic and see the modification of the package.
 
-    ```shell
+    ```
     $ ./scriptDemo.sh
     ```
     ```shell
@@ -180,7 +180,7 @@ The script is modifying the package replacing the hexadecimal value of x coordin
     packet received
     rule match, changing payload: e03f -> e0bf
     packet received
-    ```
+    
     
     Remember that our script for run nfqsed need no be located inside the nfqsed folder, otherwise you will have to modify the script with the path to nfqsed.
     
