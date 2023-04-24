@@ -5,7 +5,7 @@ Table of Contents
   * [Description](#description)
   * [Requeriments](#requeriments)
   * [Instructions](#instructions)
-  * [Documentation and Resource links](#documentation_and_resource_links)
+  * [Documentation](#documentation)
 
 
   
@@ -187,7 +187,7 @@ The script is modifying the package replacing the hexadecimal value of x coordin
     ![OriginalPackage Image](/images/paquete.png "Package before modification.")
     ![HackedPackage Image](/images/RVIZ2.png "Package after modification.")
 
-## Documentation and Resource links
+## Documentation
 
 Some useful links:
 
