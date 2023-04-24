@@ -5,7 +5,7 @@ Table of Contents
   * [Description](#description)
   * [Requeriments](#requeriments)
   * [Instructions](#instructions)
-  * [Documentation and Resource links](#documentation and resource links)
+  * [Documentation and Resource links](#documentation_and_resource_links)
 
 
   
@@ -161,7 +161,7 @@ First of all, the following software is required to perform the experiment:
     $ sudo iptables -A OUTPUT -p udp --dport <<port_number>> -j NFQUEUE --queue-num 0
     ```
     
-    The script is modifying the package replacing the hexadecimal value of x coordinate (of linear velocity). The original value is 0xE03F (0.5 in decimal) and nfqsed will replace that value for 0xE0BF (-0.5 in decimal).
+The script is modifying the package replacing the hexadecimal value of x coordinate (of linear velocity). The original value is 0xE03F (0.5 in decimal) and nfqsed will replace that value for 0xE0BF (-0.5 in decimal).
 
 8. Next step consist in run the script and use teleop node to move the robot forward ("I" key), with nfqsed runing, the robot should moving backward when we press "I" key. With Wireshark we can monitor the traffic and see the modification of the package.
 
