@@ -2,10 +2,10 @@
 
 Table of Contents
 =================
-  * [Desciption](#description)
-  * [Requeriments]
-  * [Instructions]
-  * [Documentation and Resource links]
+  * [Description](#description)
+  * [Requeriments](#requeriments)
+  * [Instructions](#instructions)
+  * [Documentation and Resource links](#documentation and resource links)
 
 
   
@@ -150,6 +150,11 @@ First of all, the following software is required to perform the experiment:
     ```
     
 7. Run Wireshark (with root) and search for the ros2 packages. The teleop node can be used to generate traffic. We can use the next rule to filter the traffic: ```udp && ip.src==172.17.0.1 && ip.dst==172.17.0.2```. Once we have located a package we must search for the ports and replace them in the scriptDemo.sh file:
+
+![Wireshark Image](/images/Wireshark.png "Example of ROS2 packages in Wireshark")
+
+![Ports Image](/images/ports.png "Ports in Wireshark")
+
     
     ```shell
     $ sudo iptables -A INPUT -p udp --sport <<port_number>> -j NFQUEUE --queue-num 0
@@ -178,6 +183,9 @@ First of all, the following software is required to perform the experiment:
     ```
     
     Remember that our script for run nfqsed need no be located inside the nfqsed folder, otherwise you will have to modify the script with the path to nfqsed.
+    
+    ![OriginalPackage Image](/images/paquete.png "Package before modification.")
+    ![HackedPackage Image](/images/RVIZ2.png "Package after modification.")
 
 ## Documentation and Resource links
 
