@@ -197,5 +197,13 @@ Some useful links:
 - MERLIN2_docker DockerHub: https://hub.docker.com/r/mgons/merlin2
 
 Documentation:
-- Paper:
+- Paper (bibtex): @inproceedings{hidalgo2023ciberseguridad,
+  title={Ciberseguridad en sistemas ciberf{\'\i}sicos: entorno simulado para la evaluaci{\'o}n de competencias en ciberseguridad en sistemas con capacidades aut{\'o}nomas},
+  author={Hidalgo, David Sobr{\'\i}n and Becerra, Laura Fern{\'a}ndez and Santamarta, Miguel {\'A}ngel Gonz{\'a}lez and Aparicio, Claudia {\'A}lvarez and Higueras, {\'A}ngel Manuel Guerrero and Gonz{\'a}lez, Miguel {\'A}ngel Conde and Lera, Francisco Javier Rodr{\'\i}guez and Olivera, Vicente Matell{\'a}n},
+  booktitle={Actas de las VIII Jornadas Nacionales de Investigaci{\'o}n en Ciberseguridad: Vigo, 21 a 23 de junio de 2023},
+  pages={461--467},
+  year={2023},
+  organization={Universidade de Vigo}
+}
+
 - Demostration video: https://www.youtube.com/watch?v=p4E1PTxXucU&t=14s
